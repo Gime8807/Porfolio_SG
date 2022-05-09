@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+::before{
+    margin: 0px;
+    padding: 0px;
+}
+
+main {   
+    background-color: #8395ba;
+    font-family:'Libre Baskerville', serif;
+    }
+

@@ -1,0 +1,18 @@
+/* HEADER */
+#APlogo {
+    text-align: center;
+    width: 150px;
+    align-content: flex-start;
+    }
+    
+    .redes{
+        width: 50px;
+    }
+    
+    #social{
+        float: right;
+        align-items: center;
+        margin: 0px;   
+    }
+    
+    

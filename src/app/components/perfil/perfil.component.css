@@ -1,0 +1,56 @@
+/* ESTILOS GENERALES PARA PANTALLAS GRANDES*/
+
+@media (min-width:576px) {
+
+    /* ESTILOS DE HEADER - PERFIL*/
+
+    #foto-perfil {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        border-radius: 50%;
+        margin-top: -126px;
+        margin-left: 20px;
+        z-index: 1;
+        box-shadow: 3px 3px 3px gray;       
+    }
+
+    #btn-edit-foto{
+        width: 100px;
+        height: 100px;
+        color: black;
+        display: inline-block;
+        margin-top:68px;
+        margin-left:192px;  
+    }
+
+    #nombre{  
+        text-align: center;     
+        font-weight: bold;
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    #titulo{
+        text-align: center;  
+        font-weight: lighter;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    #info-perfil{
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /* ESTILOS DE ACERCA DE MI*/
+
+    h2 {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .a{
+        text-decoration: none;
+        color: black;
+    }
+}

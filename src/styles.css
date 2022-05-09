@@ -8,3 +8,11 @@ main {
     font-family:'Libre Baskerville', serif;
     }
 
+    i {
+        color: black;
+        height: 10px;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+        
+    }

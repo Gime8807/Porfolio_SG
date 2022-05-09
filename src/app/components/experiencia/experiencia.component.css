@@ -1,0 +1,58 @@
+
+/* ESTILOS GENERALES PARA PANTALLAS GRANDES*/
+
+@media (min-width:576px) {
+
+.title {
+    margin: 0px;
+    display: inline-flex;
+    justify-items: center;
+       
+}
+
+.btn-edit-add {
+    margin: 0px;
+    display: inline-flex;
+    justify-items: center;
+    
+}
+
+.data-container {
+    display: flex;
+    margin: 10px 20px;
+    padding: 20px;
+
+}
+
+.img-experiencia {   
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    z-index: 1;
+    box-sizing: content-box;
+    border-radius: 50%;
+   
+}
+
+.list-info{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    padding: 0px;
+   
+}
+
+.data-control{
+  
+    display: inline;
+    color: black;      
+}
+
+.btn-edit-experiencia {
+    align-items: stretch;
+    justify-content: space-between;
+    color: black;
+}
+
+}

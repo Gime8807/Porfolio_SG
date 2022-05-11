@@ -1,0 +1,11 @@
+@media (min-width:576px){
+    .btn-edith {
+        align-items: stretch;
+        justify-content: space-between;
+        color: black;
+    }
+}
+
+@media (max-width:575px){
+    
+}

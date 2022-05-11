@@ -3,10 +3,11 @@
 
 @media (min-width:576px) {
 
-.title {
+h2 {
     margin: 0px;
     display: inline-flex;
     justify-items: center;
+    padding: 0px 10px;
        
 }
 
@@ -55,4 +56,43 @@
     color: black;
 }
 
+}
+
+@media (max-width:575px) {
+    h2 {
+        margin: 0px;
+        display: inline-flex;
+        justify-items: center;
+        padding: 0px 10px;
+           
+    }
+    .btn-edit-add {
+        margin: 0px;
+        display: inline-flex;
+        justify-items: center;
+        
+    }
+
+    .img-experiencia {   
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        z-index: 1;
+        box-sizing: content-box;
+        border-radius: 50%;
+        margin: 30px 75px;
+       
+    }
+
+    .data-control{
+        display: inline;
+        color: black;       
+    }
+    
+    .btn-edit-experiencia {
+        align-items: stretch;
+        justify-content: center;
+        justify-content: space-between;
+        color: black;
+    }
 }

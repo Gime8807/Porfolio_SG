@@ -1,5 +1,5 @@
 /* HEADER */
-#APlogo {
+    #APlogo {
     text-align: center;
     width: 150px;
     align-content: flex-start;
@@ -12,7 +12,11 @@
     #social{
         float: right;
         align-items: center;
-        margin: 0px;   
+        margin: 0px;  
+        padding-right: 30px;
     }
-    
+
+    a {
+        padding: 2px;
+     }
     
